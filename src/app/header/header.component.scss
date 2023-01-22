@@ -1,0 +1,35 @@
+header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 80px;
+    z-index: 1;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1); 
+
+    .initials {
+        font-size: 40px;
+        color: white;
+        display: flex;
+        align-items: center;
+    }
+
+    a {
+        color: white;
+        font-size: 20px;
+        margin-left: 32px;
+        font-weight: 500;
+        text-decoration: none;
+
+        &:hover {
+            color: rgba(255, 255, 255, 0.6);
+        }
+    }
+
+    img {
+        height: 50px;
+    }
+}
