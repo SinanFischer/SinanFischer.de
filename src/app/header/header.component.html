@@ -1,14 +1,14 @@
-<header>
+<header [class.headerDark]="darkMode">
     <div class="initials"> 
         <img src="./assets/icons/hacker.png"> 
         <span> SF </span>
     </div>
 
-    <div> 
-    <a href="#"> Home </a>
+    <div [class.darkLinks]="darkMode"> 
+    <a routerLink="/"> Home </a>
     <a href="#"> Curriculum </a>
-    <a href="#"> Projekte</a>
-    <a href="#"> Impressum </a>
+    <a href="#"> Projects</a>
+    <a routerLink="/imprint"> Imprint </a>
 
     </div>
 </header>
